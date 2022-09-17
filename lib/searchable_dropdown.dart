@@ -1002,7 +1002,7 @@ class _DropdownDialogState<T> extends State<DropdownDialog> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
-                FlatButton(
+                TextButton(
                   onPressed: () {
                     pop();
                   },
